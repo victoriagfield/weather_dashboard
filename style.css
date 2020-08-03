@@ -1,5 +1,5 @@
 body{
-  background-image: url(../assets/shutterstock_1562129317.jpg);
+  background-image: url(./assets/shutterstock_1562129317.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -27,8 +27,7 @@ aside{
 }
 
 .list-group{
-   padding: 20px;
-  /* border: 2px solid midnightblue; */ 
+   padding: 20px; 
   font-family: 'Bad Script', cursive;
   font-weight: bold;
   text-align: center;
@@ -45,7 +44,7 @@ aside{
   padding: 20px;
   border: 5px solid #3E8AC1;
   text-align: center;
-  background-image: url(../assets/shutterstock_1562129317.jpg);
+  background-image: url(./assets/shutterstock_1562129317.jpg);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;

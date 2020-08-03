@@ -97,7 +97,7 @@ $(document).ready(function () {
 
             //CSS for card body
             cardHeader.css("background", "#3E8AC1").css("color", "white").css("fontWeight", "bold");
-            cardBody.css("backgroundImage", "url(../assets/shutterstock_1562129317.jpg)").css("color", "#2D638A");
+            cardBody.css("backgroundImage", "url(./assets/shutterstock_1562129317.jpg)").css("color", "#2D638A");
             img.css("width", "25%");
 
 
