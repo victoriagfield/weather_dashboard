@@ -87,7 +87,7 @@ $(document).ready(function () {
             var tempF = (data.list[i].main.temp - 273.15) * 1.80 + 32;
             var humid = (data.list[i].main.humidity);
             var uvIndex = (data.value);
-            var img = $("<img>").attr("src", "http://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png");
+            var img = $("<img>").attr("src", "https://openweathermap.org/img/w/" + data.list[i].weather[0].icon + ".png");
             var col = $("<div>").addClass('col-lg-2 card-wrapper');
             var card = $("<div>").addClass("card");
             var cardHeader = $("<div>").addClass("card-header");
