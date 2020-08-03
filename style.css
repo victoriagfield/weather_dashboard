@@ -1,0 +1,78 @@
+body{
+  background-image: url(../assets/shutterstock_1562129317.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-family: 'Cormorant SC', serif;
+  font-stretch: extra-expanded;
+  font-size: 50px;
+  color: #2D638A;
+}
+
+h5{
+  text-align: center;
+  font-family: 'Cormorant SC', serif;
+  font-weight: bolder;
+}
+
+.form-control{
+  margin-left: 50px;
+}
+
+aside{
+  border: 2px solid #3E8AC1;
+}
+
+.list-group{
+   padding: 20px;
+  /* border: 2px solid midnightblue; */ 
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.card-current{
+  position: static;
+  top: 5px;
+  left: 50px;
+  right: 0;
+  bottom: 5px;
+  padding: 20px;
+  border: 5px solid #3E8AC1;
+  text-align: center;
+  background-image: url(../assets/shutterstock_1562129317.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #2D638A;
+}
+
+#cityName{
+  font-family: 'Cormorant SC', serif;
+  font-weight: bolder;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+#currentDay{
+  font-family: 'Cormorant SC', serif;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.cardText{
+  font-family: 'Cormorant SC', serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+#FiveDayRow{
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+}
