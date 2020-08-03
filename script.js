@@ -1,6 +1,6 @@
 /*Global Variable for API key and queryURL*/
 var APIKey = "&appid=f6940ed9495c99e1100a5a35b467b0c6";
-var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=";
+var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=";
 
 /*Search a City section*/
 $(document).ready(function () {
@@ -63,7 +63,7 @@ $(document).ready(function () {
   }
 
   //Global variable for 5 day forecast
-  var fiveDayForecast = "http://api.openweathermap.org/data/2.5/forecast?q="
+  var fiveDayForecast = "https://api.openweathermap.org/data/2.5/forecast?q="
 
   //5 day forecast section
   function getForecast(searchValue) {
@@ -115,7 +115,7 @@ $(document).ready(function () {
 
   //uv index function
   function getUVIndex(lat, lon) {
-    var uvUrl = `http://api.openweathermap.org/data/2.5/uvi?lat=${lat}&lon=${lon}${APIKey}`
+    var uvUrl = `https://api.openweathermap.org/data/2.5/uvi?lat=${lat}&lon=${lon}${APIKey}`
 
     $.ajax({
       type: "GET",
