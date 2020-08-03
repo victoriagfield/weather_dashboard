@@ -10,3 +10,7 @@ Use the [OpenWeather API](https://openweathermap.org/api) to retrieve weather da
 AS A traveler <br>
 I WANT to see the weather outlook for multiple cities <br>
 SO THAT I can plan a trip accordingly <br>
+
+### Example Image:
+
+![Annotation 2020-08-03 164012](https://user-images.githubusercontent.com/66035385/89230895-2e8b5680-d5b2-11ea-8935-365cbacae9df.jpg)
