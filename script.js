@@ -48,7 +48,7 @@ $(document).ready(function () {
         //Current Weather Section - calling the data types
         var tempF = (data.main.temp - 273.15) * 1.80 + 32;
 
-        $("#currentIcon").html("<img src='http://openweathermap.org/img/w/" + data.weather[0].icon + ".png'>");
+        $("#currentIcon").html("<img src='https://openweathermap.org/img/w/" + data.weather[0].icon + ".png'>");
         $("#cityName").append("City Name: " + data.name);
         $("#currentDay").text(moment().format("dddd, MMMM Do"));
         $("#currentTempF").text("Temperature: " + tempF.toFixed(2) + " °");
