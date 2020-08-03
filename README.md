@@ -14,3 +14,6 @@ SO THAT I can plan a trip accordingly <br>
 ### Example Image:
 
 ![Annotation 2020-08-03 164012](https://user-images.githubusercontent.com/66035385/89230895-2e8b5680-d5b2-11ea-8935-365cbacae9df.jpg)
+
+Resources:
+https://momentjs.com/, https://stackoverflow.com/, https://developer.mozilla.org/, server side API week 6 class activities
