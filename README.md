@@ -1,5 +1,5 @@
 # Weather Dashboard
-https://victoriagfield.github.io/weather_dashboard/.
+https://victoriagfield.github.io/weather_dashboard/
 
 ### Objective: 
 
